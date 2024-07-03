@@ -3,6 +3,7 @@
 def main():
     number = []
     evencnt = 0
+    even_group = False
 
     for i in range(10):
         number.append(int(input('Enter a number: ')))
@@ -10,6 +11,10 @@ def main():
         
         for int in number:
             if number %2 == 0:
+                evencnt += 1
+                even_group = True
+            else:
+                even_group = False
                 
         
         
