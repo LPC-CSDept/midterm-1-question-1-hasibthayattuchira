@@ -6,6 +6,13 @@ def main():
 
     for i in range(10):
         number.append(int(input('Enter a number: ')))
+        number.append(int)
+        
+        for int in number:
+            if number %2 == 0:
+                
+        
+        
 
     """
     ########################################
