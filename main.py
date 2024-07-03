@@ -3,18 +3,19 @@
 def main():
     number = []
     evencnt = 0
-    even_group = False
+    even_count = 0
 
     for i in range(10):
         number.append(int(input('Enter a number: ')))
         number.append(int)
         
-        for int in number:
-            if number %2 == 0:
+    for int in number:
+        if number %2 == 0:
+            evencnt += 1
+            if even_count ==2:
                 evencnt += 1
-                even_group = True
-            else:
-                even_group = False
+        else:
+            even_count = 0
                 
         
         
