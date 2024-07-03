@@ -9,8 +9,8 @@ def main():
         number.append(int(input('Enter a number: ')))
         number.append(int)
         
-    for int in number:
-        if number %2 == 0:
+    for num in number:
+        if num %2 == 0:
             evencnt += 1
             if even_count ==2:
                 evencnt += 1
