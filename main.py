@@ -10,10 +10,11 @@ def main():
         number.append(int)
         
     for num in number:
-        if num %2 == 0:
-            evencnt += 1
+        if num % 2 == 0:
+            even_count += 1
             if even_count ==2:
                 evencnt += 1
+                even_count = 0
         else:
             even_count = 0
                 
